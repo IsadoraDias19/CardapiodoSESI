@@ -1,0 +1,26 @@
+ h1, h2, p{
+    color: rgb(7, 17, 152);
+    text-align: center
+}
+
+ table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+ table, th, td{
+    border: 1px solid black;
+}
+ #tarde{
+    background-color: hsl(209, 100%, 50%);
+ }
+.container{
+    margin-right: 20px;
+}
+
+ body{
+    background-color: rgb(142, 254, 172);
+ }
+
+

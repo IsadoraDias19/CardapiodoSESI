@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas-HTML</title>
+</head>
+<body>
+    <h1 style="color: blueviolet;">TABELAS HTML</h1>
+    <table>
+    <tr>
+     <th>ITEM</th>
+     <th>PREÇO</th>
+     <th>QUANTIDADE</th>
+    </tr>    
+
+    <tr>
+     <td>Item 1</td><!--para criar colunas -->
+     <td>$10</td>
+     <Td>2</Td>
+     </tr>
+
+    <tr>
+      <td>Item 2</td>
+      <td>$15</td>
+      <td>3</t>
+     </tr>
+
+      <tr>
+      <td>TOTAL</td>
+      <td></td>
+      <td>$25</td>
+     </tr>
+    </table>
+
+    <!-- TABELA COM BORDA-->
+     <h1 style="color: blue;">TABELA DE ALUNOS</h1>
+<table border="1">
+     <tr>
+      <thead><!-- Cabeçalho-->
+        <th>NOME</th>
+        <th>IDADE</th>
+        <th>NOTA</th>
+      </thead>
+    </tr>
+    <tbody> <!-- O marcador tbody é o espaço  onde são colocados as linhas dos detalhes, de dados, em uma tabelas HTML-->
+
+      <tr> <!-- A 5etiqueta <tr> que significa table row é usada para definier uma linha.-->
+        <td>Maria</td><!--A etiqueta <td> que significa table data é usada para definir uma celula.-->
+        <td>18</td>
+        <td>8.5</td>
+      </tr>
+
+       <tr>
+         <td>João</td>
+         <td>28</td>
+         <td>7.0</td>
+       </tr>
+
+       <tr>
+        <td>Ana</td>
+        <td>19</td>
+        <td>9.0</td>
+       </tr>
+    </tbody>
+</table>
+ <!-- Exemplo com Colspan e ROWpan. As propiedades colspan e rowpan são usadas nas celulas de uma tabela HTML para combinar varias colunas ou linhas, respectivamente. Elas são aplicadas ás tags <th> ou <td>  -->
+
+  <h1>Tabelas de Horarios</h1>
+ <table border="2">
+     <tr>
+        <th colspan="3"> Cabeçaho abrangendo 3 colunas</th> <!-- O atributo colspan serve para unir as celuas da linha-->
+     </tr>
+</table>
+
+<table border="2"> 
+     <tr>
+        <th>Horario</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+     </tr>
+
+     <thbody>
+      <tr>
+        <td>08:00 - 09:00</td>
+        <td rowspan="2">Matematica</td>
+        <td>Portugues</td>
+        <td>Historia</td>
+        <td>Geografia</td>
+        <td>Biologia</td>
+      </tr>
+
+      <tr>
+        <td>09:00 - 10:00</td>
+        <td>Educação Fisíca</td>
+        <td>Quimica</td>
+        <td rowspan="2">Fisíca</td> <!-- O atibuto Rowpan serve para unir as celulas das colunas-->
+        <td>Artes</td>
+      </tr>
+      
+      <tr>
+        <td>10:00 - 11:00</td>
+        <td> Inglês</td>
+        <td>Educação Fisíca</td>
+        <td>Quimica</td>
+        <td rowspan="2">Matematica</td>
+      </tr>
+
+      <tr>
+        <td>11:00 - 12:20</td>
+        <td>Ingles</td>
+        <td>Filosofia</td>
+        <td>Biologia</td> 
+        <td>Artes</td> 
+      </tr>
+    
+     </thbody>
+</table>
+</body>
+</html>
